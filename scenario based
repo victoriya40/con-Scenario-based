@@ -1,21 +1,20 @@
-import java.util.Scanner;
-public class Main{
-    public static void main(String[]args){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Bill: ");
-        double bill=sc.nextDouble();
-        if(bill>3000){
-         System.out.println("30% discount");
-        }
-        else if(bill>2000){
-            System.out.println("20% discount");
-        }
-        else if(bill>1000){
-            System.out.println("10% discount");
-        }
-        else{
-            System.out.println("no discount");
-        }
-        }
-        }
-    
+Q1.Write a java Program to calculate different discount for different Bill 
+Q2.Write a java Program to check whether a person is eligible to vote (age ≥ 18)
+Q3.Write a java Program to check whether a person is eligible for senior citizen benefits (age ≥ 60)
+Q4.Write a java program to display mobile Battery Check – "Low Battery", "50% Consumed", or "Battery Full".
+Q5.Write a java program to check if temperature is above 100 (fever check).
+Q6.Write a java program to check pass/fail based on marks (marks ≥ 35 = pass).
+Q7.Write a java program to calculate electricity bill using slab rates (0–100 free, 101–300 = ₹5/unit, >300 = ₹10/unit) and apply surcharge if consumption exceeds 500 units.
+Q8.Write a java program to check if an entered PIN matches the stored ATM PIN before allowing withdrawal.
+Q9.Write a java program to check if withdrawal amount ≤ balance and is a multiple of 100 (ATM Withdrawal Validation).
+Q10.Write a java program to print "Stop / Ready / Go" based on traffic light color.
+Q11.Write a java program to apply % of discount based on purchase amount.
+Q12.Write a java program to show weather condition (cold, pleasant, hot, heatwave) based on temperature.
+Q13.Write a java program to display mobile battery status (full, moderate, low).
+Q14.Write a java program to assign ticket price based on passenger age (child, adult, senior).
+Q15.Write a java program to check whether vehicle speed exceeds 100 km/h.
+Q16.Write a java program to validate a mobile number . If it has 10 digits print “Valid Number” otherwise print “Invalid Number”.
+Q17.Write a java program to assign different ticket prices based on day of the week (weekday/weekend).
+Q18.Write a java program to calculate water bill using slab rates (≤1000 liters free, next 2000 @ ₹5, above @ ₹10 per 1000 liters).
+Q19.Write a java program to display mobile data usage alert – "Low Data", "Half Consumed", or "Data Over" based on usage.
+Q20.Write a java program to Check if vehicle speed exceeds 100 km/h.("Over-speeding! Fine imposed.","Speed iswithin limit")
