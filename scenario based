@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Bill: ");
+        double bill=sc.nextDouble();
+        if(bill>3000){
+         System.out.println("30% discount");
+        }
+        else if(bill>2000){
+            System.out.println("20% discount");
+        }
+        else if(bill>1000){
+            System.out.println("10% discount");
+        }
+        else{
+            System.out.println("no discount");
+        }
+        }
+        }
+    
