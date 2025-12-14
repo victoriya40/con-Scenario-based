@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("temperature: ");
+        int t=sc.nextInt();
+        if(t>100){
+         System.out.println("fever");
+        }
+        else{
+            System.out.println("no fever");
+        }
+        }
+        }
+     temperature is above 100 (fever check).
+correct or wrong
